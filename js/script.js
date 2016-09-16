@@ -191,7 +191,7 @@ window.onload = function()
             if(!planetas[i].vista)
             {
                 planetas[i].vista = true;
-                //responsiveVoice.speak("Estas viendo un cubo, es tenporal, por favor borrarlo al final", "Spanish Female");
+                responsiveVoice.speak("Este es el planeta " + planetas[i].nombre, "Spanish Female");
                 console.log("Este es el planeta " + planetas[i].nombre);
             }
         }
